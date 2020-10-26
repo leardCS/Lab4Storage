@@ -54,7 +54,7 @@ public class Lab4 {
 		//Listening to the Top 200 Charts in the United States during Q3, creating a playlist & track listening history
 	    try {
 	        FileWriter Output = new FileWriter("Report.txt");
-	        FileWriter Output2 = new FileWriter("ListeningHistory.txt");
+	        FileWriter Output2 = new FileWriter("FinalPlaylist.txt");
 	        Output.write("Your finalized playlist of the Spotify Top 200 Charts in the United States during Q3(July, August, September): \n" 
 	        		   + "-------------------------------------------------------------------------------------------------------------- \n");
 	        Output2.write("Your listening history of the Spotify Top 200 Charts in the United States during Q3(July, August, September): \n"
